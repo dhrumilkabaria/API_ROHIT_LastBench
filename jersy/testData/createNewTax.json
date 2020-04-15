@@ -1,0 +1,28 @@
+{
+  "data": {
+    "relationships": {
+      "event": {
+        "data": {
+          "type": "event",
+          "id": "3"
+        }
+      }
+    },
+    "attributes": {
+      "city": "example",
+      "zip": "123456",
+      "country": "IN",
+      "is-tax-included-in-price": false,
+      "invoice-footer": "example",
+      "state": "example",
+      "tax-id": "123456789",
+      "name": "Service Tax",
+      "registered-company": "fossasia",
+      "address": "example",
+      "rate": "1.23456789",
+      "should-send-invoice": false,
+      "is-invoice-sent": false
+    },
+    "type": "tax"
+  }
+}

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="SampleSuite" verbose="1" >
+  <test name="UsersTestCases" >
+    <classes>
+       <class name="com.infostretch.jersy.suite.UsersTestCases" />
+    </classes>
+  </test> 
+</suite>
