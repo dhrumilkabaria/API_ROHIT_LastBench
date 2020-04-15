@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAF Demo" verbose="0">
+<parameter name="scenario.file.loc" value="scenarios/UserPermissionsTestCases.bdd" />
+	<test name="BDD Test" enabled="true">
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
+		</classes>
+	</test>
+
+</suite>

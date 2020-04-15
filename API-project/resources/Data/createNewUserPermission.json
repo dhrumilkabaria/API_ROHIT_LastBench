@@ -1,0 +1,11 @@
+{
+  "data": {
+    "attributes": {
+      "name": "Admin Rights 1234",
+      "description": "To get all admin rights",
+      "unverified-user": "false",
+      "anonymous-user": "false"
+    },
+    "type": "user-permission"
+  }
+}

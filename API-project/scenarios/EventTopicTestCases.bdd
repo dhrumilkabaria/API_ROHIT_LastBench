@@ -1,0 +1,40 @@
+SCENARIO: Get token
+META-DATA: {"author": "Rohit Dwivedi",description":"User stores token"}
+	Given user requests 'get_token'
+	And store response body '$.access_token' into 'token'
+	Then response should have status code '200'
+	And response should have status 'OK'
+END
+
+SCENARIO: Verifying response status code for 'GET' request for list of event topic
+META-DATA: {"author": "Rohit Dwivedi",description":"Display all event topics",enabled=true}
+	Given user requests 'get.event.topics'
+	Then response should have status code '200'
+	And response should have status 'OK'
+	And getting number of items for jsonPath '$.data[*].attributes[\'name\']'	
+END
+
+SCENARIO: Verifying newly added event topic
+META-DATA: {"author": "Rohit Dwivedi",description":"Create a new event type",enabled=true}
+	Given user requests 'post.event.topics'	
+	Then response should have status code '201'
+	And response should have status 'Created'
+	And response has value 'Travel & Outdoor' at jsonpath '$.data.attributes.name'	
+	And store response body '$.data.id' into 'eventTopicId'
+END
+
+SCENARIO: Verifying deleted event topic
+META-DATA: {"author": "Rohit Dwivedi",description":"Delete an event type",enabled=true}
+	Given user requests 'delete.event.topic'	
+	Then response should have status code '200'
+	And response should have status 'OK'
+	And response has value 'Object successfully deleted' at jsonpath '$.meta.message'	
+END
+
+SCENARIO: Verifying details for for a specific event type
+META-DATA: {"author": "Rohit Dwivedi",description":"Display of single event type",enabled=true}
+	Given user requests 'get.event.topic.details'
+	Then response should have status code '200'
+	And response should have status 'OK'	
+	And response has value 'Home & Lifestyle' at jsonpath '$.data.attributes.name'	
+END

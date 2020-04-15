@@ -1,0 +1,8 @@
+{
+  "data": {
+    "attributes": {
+      "name": "My Event Type 1234"
+    },
+    "type": "event-type"
+  }
+}

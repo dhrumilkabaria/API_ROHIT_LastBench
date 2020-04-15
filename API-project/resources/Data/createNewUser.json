@@ -1,0 +1,19 @@
+{
+  "data": {
+    "attributes": {
+      "email": "ema564gd55ddsfg3@example.com",
+      "password": "password",
+      "avatar_url": "http://example.com/example.png",
+      "first-name": "John",
+      "last-name": "Doe",
+      "details": "example",
+      "contact": "example",
+      "facebook-url": "http://facebook.com/facebook",
+      "twitter-url": "http://twitter.com/twitter",
+      "instagram-url": "http://instagram.com/instagram",
+      "google-plus-url": "http://plus.google.com/plus.google",
+      "original-image-url": "https://cdn.pixabay.com/photo/2013/11/23/16/25/birds-216412_1280.jpg"
+    },
+    "type": "user"
+  }
+}

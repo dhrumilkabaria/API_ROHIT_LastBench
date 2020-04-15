@@ -1,0 +1,42 @@
+SCENARIO: Get token
+META-DATA: {"author": "Rohit Dwivedi",description":"User stores token"}
+	Given user requests 'get_token'
+	And store response body '$.access_token' into 'token'
+	Then response should have status code '200'
+	And response should have status 'OK'
+END
+
+SCENARIO: Verifying response status code for 'GET' request for list of users
+META-DATA: {"author": "Rohit Dwivedi",description":"Display all Users",enabled=false}
+	Given user requests 'get.user.list'
+	Then response should have status code '200'
+	And response should have status 'OK'
+	And getting number of items for jsonPath '$.data[*].attributes[\'first-name\']'	
+END
+
+SCENARIO: Verifying newly added user
+META-DATA: {"author": "Rohit Dwivedi",description":"Create a new user",enabled=false}
+	Given user requests 'post.new.user'	
+	Then response should have status code '201'
+	And response should have status 'Created'
+	And response has value 'John' at jsonpath '$.data.attributes.first-name'	
+	And store response body '$.data.id' into 'userId'
+END
+
+SCENARIO: Verifying deleted user
+META-DATA: {"author": "Rohit Dwivedi",description":"Delete a user",enabled=false}
+	Given user requests 'delete.user'	
+	Then response should have status code '200'
+	And response should have status 'OK'
+	And response has value 'Object successfully deleted' at jsonpath '$.meta.message'	
+END
+
+SCENARIO: logout from application
+META-DATA: {"author": "Rohit Dwivedi",description":"Logout from application",enabled=false}
+	Given user requests 'post.logout'	
+	Then response should have status code '200'	
+	And response has value 'true' at jsonpath '$.success'	
+END
+
+
+

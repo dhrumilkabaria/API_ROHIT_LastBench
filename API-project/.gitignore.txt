@@ -1,0 +1,11 @@
+target/
+
+test-output/
+
+test-results/
+
+.classpath
+
+dashboard.htm
+.checkstyle
+/bin/

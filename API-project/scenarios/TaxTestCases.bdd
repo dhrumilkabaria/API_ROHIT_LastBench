@@ -1,0 +1,40 @@
+SCENARIO: Get token
+META-DATA: {"author": "Rohit Dwivedi",description":"user stores token"}
+	Given user requests 'get_token'
+	And store response body '$.access_token' into 'token'
+	Then response should have status code '200'
+	And response should have status 'OK'
+END
+
+SCENARIO: Verifying response status code for 'GET' request for list of taxes
+META-DATA: {"author": "Rohit Dwivedi",description":"Display all taxes",enabled=false}
+	Given user requests 'get.tax.list'
+	Then response should have status code '200'
+	And response should have status 'OK'
+	And getting number of items for jsonPath '$.data[*].attributes[\'name\']'	
+END
+
+SCENARIO: Verifying newly added tax
+META-DATA: {"author": "Rohit Dwivedi",description":"Create a nesw tax",enabled=true}
+	Given user requests 'post.new.tax'	
+	Then response should have status code '201'
+	And response should have status 'Created'
+	And response has value 'Service_Tax' at jsonpath '$.data.attributes.name'	
+	And store response body '$.data.id' into 'taxId'
+END
+
+SCENARIO: Verifying deleted tax
+META-DATA: {"author": "Rohit Dwivedi",description":"Delete a tax",enabled=true}
+	Given user requests 'delete.tax'	
+	Then response should have status code '200'
+	And response should have status 'OK'
+	And response has value 'Object successfully deleted' at jsonpath '$.meta.message'	
+END
+
+SCENARIO: Verifying details for for a specific tax
+META-DATA: {"author": "Rohit Dwivedi",description":"Display of single tax",enabled=true}
+	Given user requests 'get.tax.details'
+	Then response should have status code '200'
+	And response should have status 'OK'
+	And response has value 'Water_Tax' at jsonpath '$.data.attributes.name'
+END

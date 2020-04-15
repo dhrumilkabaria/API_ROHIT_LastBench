@@ -1,0 +1,40 @@
+SCENARIO: Get token
+META-DATA: {"author": "Rohit Dwivedi","description":"user stores token"}
+    Given user requests 'get_token'
+    And store response body '$.access_token' into 'token'
+    Then response should have status code '200'
+    And response should have status 'OK'
+END
+
+SCENARIO: Verifying response status code for 'GET' request for list of user permissions
+META-DATA: {"author": "Rohit Dwivedi","description":"Display all User Permissions"}
+	Given user requests 'get.userpermissions.list'   
+    Then response should have status code '200'
+    And response should have status 'OK'
+    And getting number of items for jsonPath '$.data[*].attributes.name'
+END
+
+SCENARIO: Verifying newly added User Permission
+META-DATA: {"author": "Rohit Dwivedi","description":"Create a New User Permission"}
+	Given user requests 'post.new.userpermission'
+    Then response should have status code '201'
+    And response should have status 'Created'
+    Then response has value 'Admin Rights 1234' at jsonpath '$.data.attributes.name'
+    Then store response body '$.data.id' into 'permissionId'
+END
+
+SCENARIO: Get Single User Permission 
+META-DATA: {"author": "Rohit Dwivedi","description":"Display single User Permission"}
+	Given user requests 'get.userpermission.details'
+    And response should have value '${permissionId}' at jsonpath '$.data.id'
+    Then response should have status code '200'
+    And response should have status 'OK'
+END
+
+SCENARIO: Delete User Permission
+META-DATA: {"author": "Rohit Dwivedi","description":"Delete User Permission"}
+	Given user requests 'delete.userpermission'
+    Then response should have status code '200'
+    And response should have status 'OK'
+    And response should have value 'Object successfully deleted' at jsonpath '$.meta.message'
+END
