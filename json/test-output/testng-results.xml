@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[All female users-]]>
+    </line>
+    <line>
+      <![CDATA[1.Phyllis Calhoun]]>
+    </line>
+    <line>
+      <![CDATA[2.Lindsay Stuart]]>
+    </line>
+    <line>
+      <![CDATA[3.Nanette Butler]]>
+    </line>
+    <line>
+      <![CDATA[4.Ada Potter]]>
+    </line>
+    <line>
+      <![CDATA[5.Sophia Duran]]>
+    </line>
+    <line>
+      <![CDATA[6.Lucille Juarez]]>
+    </line>
+    <line>
+      <![CDATA[7.Antonia Byers]]>
+    </line>
+    <line>
+      <![CDATA[8.Leah Downs]]>
+    </line>
+    <line>
+      <![CDATA[9.Jewel Mccoy]]>
+    </line>
+    <line>
+      <![CDATA[All users-]]>
+    </line>
+    <line>
+      <![CDATA[1.Snow Rodriguez]]>
+    </line>
+    <line>
+      <![CDATA[2.Phyllis Calhoun]]>
+    </line>
+    <line>
+      <![CDATA[3.Lindsay Stuart]]>
+    </line>
+    <line>
+      <![CDATA[4.Mcmahon Adams]]>
+    </line>
+    <line>
+      <![CDATA[5.Nanette Butler]]>
+    </line>
+    <line>
+      <![CDATA[6.Miranda Thomas]]>
+    </line>
+    <line>
+      <![CDATA[7.Ada Potter]]>
+    </line>
+    <line>
+      <![CDATA[8.Levine Deleon]]>
+    </line>
+    <line>
+      <![CDATA[9.Sophia Duran]]>
+    </line>
+    <line>
+      <![CDATA[10.Boyd Tyson]]>
+    </line>
+    <line>
+      <![CDATA[11.Lucille Juarez]]>
+    </line>
+    <line>
+      <![CDATA[12.Antonia Byers]]>
+    </line>
+    <line>
+      <![CDATA[13.Wyatt Douglas]]>
+    </line>
+    <line>
+      <![CDATA[14.Leah Downs]]>
+    </line>
+    <line>
+      <![CDATA[15.Schneider Durham]]>
+    </line>
+    <line>
+      <![CDATA[16.Shelton Burnett]]>
+    </line>
+    <line>
+      <![CDATA[17.Crane Livingston]]>
+    </line>
+    <line>
+      <![CDATA[18.Bean Moody]]>
+    </line>
+    <line>
+      <![CDATA[19.Hodges Lawson]]>
+    </line>
+    <line>
+      <![CDATA[20.Lancaster Walton]]>
+    </line>
+    <line>
+      <![CDATA[21.Lindsay Hawkins]]>
+    </line>
+    <line>
+      <![CDATA[22.Jewel Mccoy]]>
+    </line>
+    <line>
+      <![CDATA[Displaying balance for Male users-]]>
+    </line>
+    <line>
+      <![CDATA[1. User: Snow Rodriguez || Balance: $3,772.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[2. User: Mcmahon Adams || Balance: $2,533.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[3. User: Miranda Thomas || Balance: $1,769.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[4. User: Levine Deleon || Balance: $2,520.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[5. User: Boyd Tyson || Balance: $1,087.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[6. User: Wyatt Douglas || Balance: $1,723.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[7. User: Schneider Durham || Balance: $3,349.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[8. User: Shelton Burnett || Balance: $2,923.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[9. User: Crane Livingston || Balance: $1,693.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[10. User: Bean Moody || Balance: $2,167.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[11. User: Hodges Lawson || Balance: $1,193.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[12. User: Lancaster Walton || Balance: $3,744.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[13. User: Lindsay Hawkins || Balance: $1,534.00<br>]]>
+    </line>
+    <line>
+      <![CDATA[Displaying users live in California-]]>
+    </line>
+    <line>
+      <![CDATA[1. User: Lindsay Stuart || Address: 688 Wyckoff Street, Carrizo, California, 6999<br>]]>
+    </line>
+    <line>
+      <![CDATA[First two users-]]>
+    </line>
+    <line>
+      <![CDATA[1.Snow Rodriguez]]>
+    </line>
+    <line>
+      <![CDATA[2.Phyllis Calhoun]]>
+    </line>
+    <line>
+      <![CDATA[Last two users-]]>
+    </line>
+    <line>
+      <![CDATA[1.Lindsay Hawkins]]>
+    </line>
+    <line>
+      <![CDATA[2.Jewel Mccoy]]>
+    </line>
+    <line>
+      <![CDATA[Total number of first users are- 3]]>
+    </line>
+    <line>
+      <![CDATA[All users whose age is between 24 and 36-]]>
+    </line>
+    <line>
+      <![CDATA[1.Snow Rodriguez]]>
+    </line>
+    <line>
+      <![CDATA[2.Mcmahon Adams]]>
+    </line>
+    <line>
+      <![CDATA[3.Nanette Butler]]>
+    </line>
+    <line>
+      <![CDATA[4.Miranda Thomas]]>
+    </line>
+    <line>
+      <![CDATA[5.Ada Potter]]>
+    </line>
+    <line>
+      <![CDATA[6.Sophia Duran]]>
+    </line>
+    <line>
+      <![CDATA[7.Lucille Juarez]]>
+    </line>
+    <line>
+      <![CDATA[8.Antonia Byers]]>
+    </line>
+    <line>
+      <![CDATA[9.Wyatt Douglas]]>
+    </line>
+    <line>
+      <![CDATA[10.Leah Downs]]>
+    </line>
+    <line>
+      <![CDATA[11.Schneider Durham]]>
+    </line>
+    <line>
+      <![CDATA[12.Shelton Burnett]]>
+    </line>
+    <line>
+      <![CDATA[13.Crane Livingston]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="509" started-at="2020-01-28T09:00:08Z" finished-at="2020-01-28T09:00:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="509" started-at="2020-01-28T09:00:08Z" finished-at="2020-01-28T09:00:08Z">
+      <class name="com.infostretch.json.Rohit_Dwivedi">
+        <test-method status="PASS" signature="getAllFemaleUsers()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getAllFemaleUsers" duration-ms="316" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[All female users-]]>
+            </line>
+            <line>
+              <![CDATA[1.Phyllis Calhoun]]>
+            </line>
+            <line>
+              <![CDATA[2.Lindsay Stuart]]>
+            </line>
+            <line>
+              <![CDATA[3.Nanette Butler]]>
+            </line>
+            <line>
+              <![CDATA[4.Ada Potter]]>
+            </line>
+            <line>
+              <![CDATA[5.Sophia Duran]]>
+            </line>
+            <line>
+              <![CDATA[6.Lucille Juarez]]>
+            </line>
+            <line>
+              <![CDATA[7.Antonia Byers]]>
+            </line>
+            <line>
+              <![CDATA[8.Leah Downs]]>
+            </line>
+            <line>
+              <![CDATA[9.Jewel Mccoy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAllFemaleUsers -->
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getAllUsers" duration-ms="7" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[All users-]]>
+            </line>
+            <line>
+              <![CDATA[1.Snow Rodriguez]]>
+            </line>
+            <line>
+              <![CDATA[2.Phyllis Calhoun]]>
+            </line>
+            <line>
+              <![CDATA[3.Lindsay Stuart]]>
+            </line>
+            <line>
+              <![CDATA[4.Mcmahon Adams]]>
+            </line>
+            <line>
+              <![CDATA[5.Nanette Butler]]>
+            </line>
+            <line>
+              <![CDATA[6.Miranda Thomas]]>
+            </line>
+            <line>
+              <![CDATA[7.Ada Potter]]>
+            </line>
+            <line>
+              <![CDATA[8.Levine Deleon]]>
+            </line>
+            <line>
+              <![CDATA[9.Sophia Duran]]>
+            </line>
+            <line>
+              <![CDATA[10.Boyd Tyson]]>
+            </line>
+            <line>
+              <![CDATA[11.Lucille Juarez]]>
+            </line>
+            <line>
+              <![CDATA[12.Antonia Byers]]>
+            </line>
+            <line>
+              <![CDATA[13.Wyatt Douglas]]>
+            </line>
+            <line>
+              <![CDATA[14.Leah Downs]]>
+            </line>
+            <line>
+              <![CDATA[15.Schneider Durham]]>
+            </line>
+            <line>
+              <![CDATA[16.Shelton Burnett]]>
+            </line>
+            <line>
+              <![CDATA[17.Crane Livingston]]>
+            </line>
+            <line>
+              <![CDATA[18.Bean Moody]]>
+            </line>
+            <line>
+              <![CDATA[19.Hodges Lawson]]>
+            </line>
+            <line>
+              <![CDATA[20.Lancaster Walton]]>
+            </line>
+            <line>
+              <![CDATA[21.Lindsay Hawkins]]>
+            </line>
+            <line>
+              <![CDATA[22.Jewel Mccoy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="getBalanceOfMaleUsers()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getBalanceOfMaleUsers" duration-ms="6" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Displaying balance for Male users-]]>
+            </line>
+            <line>
+              <![CDATA[1. User: Snow Rodriguez || Balance: $3,772.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[2. User: Mcmahon Adams || Balance: $2,533.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[3. User: Miranda Thomas || Balance: $1,769.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[4. User: Levine Deleon || Balance: $2,520.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[5. User: Boyd Tyson || Balance: $1,087.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[6. User: Wyatt Douglas || Balance: $1,723.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[7. User: Schneider Durham || Balance: $3,349.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[8. User: Shelton Burnett || Balance: $2,923.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[9. User: Crane Livingston || Balance: $1,693.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[10. User: Bean Moody || Balance: $2,167.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[11. User: Hodges Lawson || Balance: $1,193.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[12. User: Lancaster Walton || Balance: $3,744.00<br>]]>
+            </line>
+            <line>
+              <![CDATA[13. User: Lindsay Hawkins || Balance: $1,534.00<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBalanceOfMaleUsers -->
+        <test-method status="PASS" signature="getCaliforniaUsers()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getCaliforniaUsers" duration-ms="5" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Displaying users live in California-]]>
+            </line>
+            <line>
+              <![CDATA[1. User: Lindsay Stuart || Address: 688 Wyckoff Street, Carrizo, California, 6999<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getCaliforniaUsers -->
+        <test-method status="PASS" signature="getFirstTwoUsers()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getFirstTwoUsers" duration-ms="3" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[First two users-]]>
+            </line>
+            <line>
+              <![CDATA[1.Snow Rodriguez]]>
+            </line>
+            <line>
+              <![CDATA[2.Phyllis Calhoun]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getFirstTwoUsers -->
+        <test-method status="PASS" signature="getLastTwoUsers()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getLastTwoUsers" duration-ms="4" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Last two users-]]>
+            </line>
+            <line>
+              <![CDATA[1.Lindsay Hawkins]]>
+            </line>
+            <line>
+              <![CDATA[2.Jewel Mccoy]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getLastTwoUsers -->
+        <test-method status="PASS" signature="getTotalFriendsOfFirstUser()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getTotalFriendsOfFirstUser" duration-ms="3" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Total number of first users are- 3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTotalFriendsOfFirstUser -->
+        <test-method status="PASS" signature="getUsersWithAgeConstraint()[pri:0, instance:com.infostretch.json.Rohit_Dwivedi@51efea79]" name="getUsersWithAgeConstraint" duration-ms="39" started-at="2020-01-28T14:30:08Z" finished-at="2020-01-28T14:30:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[All users whose age is between 24 and 36-]]>
+            </line>
+            <line>
+              <![CDATA[1.Snow Rodriguez]]>
+            </line>
+            <line>
+              <![CDATA[2.Mcmahon Adams]]>
+            </line>
+            <line>
+              <![CDATA[3.Nanette Butler]]>
+            </line>
+            <line>
+              <![CDATA[4.Miranda Thomas]]>
+            </line>
+            <line>
+              <![CDATA[5.Ada Potter]]>
+            </line>
+            <line>
+              <![CDATA[6.Sophia Duran]]>
+            </line>
+            <line>
+              <![CDATA[7.Lucille Juarez]]>
+            </line>
+            <line>
+              <![CDATA[8.Antonia Byers]]>
+            </line>
+            <line>
+              <![CDATA[9.Wyatt Douglas]]>
+            </line>
+            <line>
+              <![CDATA[10.Leah Downs]]>
+            </line>
+            <line>
+              <![CDATA[11.Schneider Durham]]>
+            </line>
+            <line>
+              <![CDATA[12.Shelton Burnett]]>
+            </line>
+            <line>
+              <![CDATA[13.Crane Livingston]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getUsersWithAgeConstraint -->
+      </class> <!-- com.infostretch.json.Rohit_Dwivedi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
