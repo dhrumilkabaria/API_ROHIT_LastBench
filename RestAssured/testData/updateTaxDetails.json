@@ -1,0 +1,21 @@
+{
+  "data": {
+    "attributes": {
+      "city": "example11234",
+      "zip": "123457",
+      "country": "IN",
+      "is-tax-included-in-price": false,
+      "invoice-footer": "example1",
+      "state": "example1",
+      "tax-id": "123456799",
+      "name": "GST",
+      "registered-company": "open event",
+      "address": "example1",
+      "rate": "2.3456789",
+      "should-send-invoice": false,
+      "is-invoice-sent": false
+    },
+    "type": "tax",
+    "id": "1"
+  }
+}

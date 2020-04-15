@@ -1,0 +1,19 @@
+{
+  "data": {
+    "attributes": {
+      "email": "rohny@@example.com",
+      "password": "password",
+      "avatar_url": "http://example1ersdsa23213.com/example.png",
+      "first-name": "Jochn12345623",
+      "last-name": "Doe123",
+      "details": "examplevs",
+      "contact": "examplesdvs",
+      "facebook-url": "http://facebookv.com/facebook",
+      "twitter-url": "http://twitter.com/twitter",
+      "instagram-url": "http://instagram.com/instagram",
+      "google-plus-url": "http://plus.google.com/plus.google",
+      "original-image-url": "https://cdn.pixabay.com/photo/2013/11/23/16/25/birds-216412_1280.jpg"
+    },
+    "type": "user"
+  }
+}

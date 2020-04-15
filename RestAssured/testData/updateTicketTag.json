@@ -1,0 +1,9 @@
+{
+  "data": {
+    "attributes": {
+      "name": "Sample Ticket Tag"
+    },
+    "type": "ticket-tag",
+    "id": "1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "attributes": {
+      "avatar_url": "http://example.com/example.png",
+      "first-name": "TOM",
+      "last-name": "Doe",
+      "details": "example1",
+      "contact": "example1",
+      "facebook-url": "http://facebook.com/facebook",
+      "twitter-url": "http://twitter.com/twitter",
+      "instagram-url": "http://instagram.com/instagram",
+      "google-plus-url": "http://plus.google.com/plus.google",
+      "thumbnail-image-url": "http://example.com/example.png",
+      "small-image-url": "http://example.com/example.png",
+      "icon-image-url": "http://example.com/example.png"
+    },
+    "type": "user",
+    "id": "2"
+  }
+}
